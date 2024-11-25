@@ -108,3 +108,27 @@
   </section>
 </body>
 </html>
+<!-- Seção de Feedback -->
+<section id="feedback">
+    <div class="container">
+        <h2>Deixe seu Feedback</h2>
+        <form action="submit_feedback.php" method="POST">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required placeholder="Seu nome">
+
+            <label for="comentario">Comentário:</label>
+            <textarea id="comentario" name="comentario" required placeholder="Seu comentário sobre a plataforma"></textarea>
+
+            <label for="avaliacao">Avaliação (1 a 5):</label>
+            <select id="avaliacao" name="avaliacao" required>
+                <option value="1">1 - Péssimo</option>
+                <option value="2">2 - Ruim</option>
+                <option value="3">3 - Regular</option>
+                <option value="4">4 - Bom</option>
+                <option value="5">5 - Excelente</option>
+            </select>
+
+            <button type="submit" class="btn">Enviar Comentário</button>
+        </form>
+    </div>
+</section>
