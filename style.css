@@ -1,0 +1,57 @@
+/* Estilo para a Seção de Feedback */
+#feedback {
+    background-color: #f1f1f1;
+    padding: 40px;
+    margin-top: 50px;
+    border-radius: 8px;
+}
+
+#feedback .container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+#feedback h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2rem;
+}
+
+#feedback form {
+    display: flex;
+    flex-direction: column;
+}
+
+#feedback label {
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+#feedback input,
+#feedback textarea,
+#feedback select {
+    margin-bottom: 20px;
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+#feedback textarea {
+    height: 150px;
+}
+
+#feedback .btn {
+    background-color: #f4a261;
+    padding: 12px 20px;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#feedback .btn:hover {
+    background-color: #e76f51;
+}
